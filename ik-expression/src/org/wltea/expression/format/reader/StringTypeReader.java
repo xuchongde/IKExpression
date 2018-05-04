@@ -17,8 +17,8 @@ import org.wltea.expression.format.Element.ElementType;
  * Sep 21, 2008
  */
 public class StringTypeReader implements ElementReader {
-	public static final char START_MARK = '"';//字符窜开始标志
-	public static final char END_MARK = '"';//字符窜结束标志
+	public static final char START_MARK = '\'';//字符窜开始标志
+	public static final char END_MARK = '\'';//字符窜结束标志
 	
 	public static final char ESCAPE_MARK = '\\';//转义符号
 	

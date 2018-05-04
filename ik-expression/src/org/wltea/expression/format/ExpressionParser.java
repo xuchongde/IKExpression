@@ -70,6 +70,7 @@ private static Map<String, Operator> operators = new HashMap<String, Operator>()
 
 	private Stack<String> parenthesis = new Stack<String>();//匹配圆括号的栈
 	
+	@SuppressWarnings("resource")
 	public List<ExpressionToken> getExpressionTokens(String expression) throws FormatException {
 		ExpressionReader eReader = new ExpressionReader(expression);
 		List<ExpressionToken> list = new ArrayList<ExpressionToken>();
